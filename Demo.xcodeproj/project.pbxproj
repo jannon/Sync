@@ -82,7 +82,6 @@
 		14FDB4D11C511A5B0061D9FA /* SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDB4D01C511A5B0061D9FA /* SyncTests.swift */; };
 		14FDB4D31C511A6F0061D9FA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDB4D21C511A6F0061D9FA /* Helper.swift */; };
 		414DB4B71D27639B003DCF5B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 414DB4B61D27639B003DCF5B /* Info.plist */; };
-		414DB4B91D2763F1003DCF5B /* Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 414DB4B81D2763D6003DCF5B /* Sync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53657BE2A6E60A3CA0A96585 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15F64DCE992EDD68128BEC3 /* Pods_Tests.framework */; };
 		B0B637141C6E4F2D00229B03 /* Bug179.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B637121C6E4F2D00229B03 /* Bug179.xcdatamodeld */; };
 		B0B637171C6E517F00229B03 /* bug-179-places.json in Resources */ = {isa = PBXBuildFile; fileRef = B0B637151C6E517F00229B03 /* bug-179-places.json */; };
@@ -174,7 +173,6 @@
 		1E8B52A6A3FEE75C9901179E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		414DB4AE1D2762B7003DCF5B /* Sync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414DB4B61D27639B003DCF5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		414DB4B81D2763D6003DCF5B /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
 		49548D9011B2AC39A3319B74 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E482492041434DB374B1948 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B637131C6E4F2D00229B03 /* Bug179.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bug179.xcdatamodel; sourceTree = "<group>"; };
@@ -293,7 +291,6 @@
 		1425D59A1CC65BEB00EC49D4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				414DB4B81D2763D6003DCF5B /* Sync.h */,
 				1425D59B1CC65BEB00EC49D4 /* NSArray+Sync.swift */,
 				1425D59C1CC65BEB00EC49D4 /* NSEntityDescription+Sync.swift */,
 				1425D59D1CC65BEB00EC49D4 /* NSManagedObject+Sync.swift */,
@@ -388,7 +385,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414DB4B91D2763F1003DCF5B /* Sync.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,6 +815,7 @@
 				414DB4B51D2762B7003DCF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

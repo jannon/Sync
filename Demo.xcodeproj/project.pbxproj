@@ -82,6 +82,13 @@
 		14FDB4D11C511A5B0061D9FA /* SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDB4D01C511A5B0061D9FA /* SyncTests.swift */; };
 		14FDB4D31C511A6F0061D9FA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FDB4D21C511A6F0061D9FA /* Helper.swift */; };
 		413648021D2787AC0025A026 /* Sync.h in Headers */ = {isa = PBXBuildFile; fileRef = 413648011D2787AC0025A026 /* Sync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413648111D2791250025A026 /* NSArray+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59B1CC65BEB00EC49D4 /* NSArray+Sync.swift */; };
+		413648121D2791250025A026 /* NSEntityDescription+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59C1CC65BEB00EC49D4 /* NSEntityDescription+Sync.swift */; };
+		413648131D2791250025A026 /* NSManagedObject+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59D1CC65BEB00EC49D4 /* NSManagedObject+Sync.swift */; };
+		413648141D2791250025A026 /* NSManagedObjectContext+Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59E1CC65BEB00EC49D4 /* NSManagedObjectContext+Sync.swift */; };
+		413648151D2791250025A026 /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59F1CC65BEB00EC49D4 /* Sync.swift */; };
+		413648171D27983B0025A026 /* DATAStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648161D27983B0025A026 /* DATAStack.framework */; };
+		413648181D2798540025A026 /* DATAStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648161D27983B0025A026 /* DATAStack.framework */; };
 		414DB4B71D27639B003DCF5B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 414DB4B61D27639B003DCF5B /* Info.plist */; };
 		53657BE2A6E60A3CA0A96585 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15F64DCE992EDD68128BEC3 /* Pods_Tests.framework */; };
 		B0B637141C6E4F2D00229B03 /* Bug179.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B637121C6E4F2D00229B03 /* Bug179.xcdatamodeld */; };
@@ -173,6 +180,7 @@
 		14FDB4D21C511A6F0061D9FA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1E8B52A6A3FEE75C9901179E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		413648011D2787AC0025A026 /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
+		413648161D27983B0025A026 /* DATAStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DATAStack.framework; path = Carthage/Build/iOS/DATAStack.framework; sourceTree = "<group>"; };
 		414DB4AE1D2762B7003DCF5B /* Sync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414DB4B61D27639B003DCF5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49548D9011B2AC39A3319B74 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53657BE2A6E60A3CA0A96585 /* Pods_Tests.framework in Frameworks */,
+				413648171D27983B0025A026 /* DATAStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413648181D2798540025A026 /* DATAStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +385,7 @@
 		515545DD1958EE5C50CA007A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				413648161D27983B0025A026 /* DATAStack.framework */,
 				9E482492041434DB374B1948 /* Pods.framework */,
 				E15F64DCE992EDD68128BEC3 /* Pods_Tests.framework */,
 			);
@@ -626,6 +637,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413648111D2791250025A026 /* NSArray+Sync.swift in Sources */,
+				413648121D2791250025A026 /* NSEntityDescription+Sync.swift in Sources */,
+				413648131D2791250025A026 /* NSManagedObject+Sync.swift in Sources */,
+				413648141D2791250025A026 /* NSManagedObjectContext+Sync.swift in Sources */,
+				413648151D2791250025A026 /* Sync.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,7 +730,10 @@
 			baseConfigurationReference = 49548D9011B2AC39A3319B74 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -732,7 +751,10 @@
 			baseConfigurationReference = 1E8B52A6A3FEE75C9901179E /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
@@ -751,6 +773,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -777,6 +803,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

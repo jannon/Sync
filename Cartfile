@@ -1,3 +1,13 @@
 github "3lvis/DATAStack"
-github "3lvis/DATAFilter"
-github "hyperoslo/NSManagedObject-HYPPropertyMapper"
+
+# TODO: revert to "3lvis/DATAFilter" once compatibility added to original repo
+github "jannon/DATAFilter" "add-carthage-compatibility"
+
+# TODO: revert to "hyperoslo/NSManagedObject-HYPPropertyMapper" once compatibility added to original repo
+github "jannon/NSManagedObject-HYPPropertyMapper" "add-carthage-compatibility"
+
+# TODO: revert to "hyperoslo/NSEntityDescription-SYNCPrimaryKey" once compatibility added to original repo
+github "jannon/NSEntityDescription-SYNCPrimaryKey" "add-carthage-compatibility"
+
+# TODO: revert to "3lvis/NSDictionary-ANDYSafeValue" once compatibility added to original repo
+github "jannon/NSDictionary-ANDYSafeValue" "add-carthage-compatibility"

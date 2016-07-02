@@ -1,2 +1,7 @@
-github "3lvis/DATAFilter" "0.10.0"
+github "jannon/DATAObjectIDs" "e650a9d60b61e7c6600836af4728addd3fab51ba"
 github "3lvis/DATAStack" "5.2.1"
+github "jannon/NSDictionary-ANDYSafeValue" "34c29267703810b6dd7d04a9417a0ac4f9458614"
+github "jannon/NSString-HYPNetworking" "6c1a18f2bf8559882c9e5ff00d48749ae23237d1"
+github "jannon/DATAFilter" "580830e7f266f39776d87ac00edb0ed00e3adcc0"
+github "jannon/NSEntityDescription-SYNCPrimaryKey" "17b10ae316bde32694b36f53aae98a487e907b33"
+github "jannon/NSManagedObject-HYPPropertyMapper" "03ef07b96e5f4d0d647b349813c1245354d8dc31"

@@ -89,6 +89,18 @@
 		413648151D2791250025A026 /* Sync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1425D59F1CC65BEB00EC49D4 /* Sync.swift */; };
 		413648171D27983B0025A026 /* DATAStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648161D27983B0025A026 /* DATAStack.framework */; };
 		413648181D2798540025A026 /* DATAStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648161D27983B0025A026 /* DATAStack.framework */; };
+		4136489C1D27CA400025A026 /* DATAFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648971D27CA400025A026 /* DATAFilter.framework */; };
+		4136489D1D27CA400025A026 /* DATAObjectIDs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648981D27CA400025A026 /* DATAObjectIDs.framework */; };
+		4136489E1D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648991D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework */; };
+		4136489F1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4136489A1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework */; };
+		413648A01D27CA400025A026 /* NSString_HYPNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4136489B1D27CA400025A026 /* NSString_HYPNetworking.framework */; };
+		413648A11D27CA590025A026 /* DATAFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648971D27CA400025A026 /* DATAFilter.framework */; };
+		413648A21D27CA590025A026 /* DATAObjectIDs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648981D27CA400025A026 /* DATAObjectIDs.framework */; };
+		413648A31D27CA590025A026 /* NSEntityDescription_SYNCPrimaryKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648991D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework */; };
+		413648A41D27CA590025A026 /* NSManagedObject_HYPPropertyMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4136489A1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework */; };
+		413648A51D27CA590025A026 /* NSString_HYPNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4136489B1D27CA400025A026 /* NSString_HYPNetworking.framework */; };
+		413648A71D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648A61D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework */; };
+		413648A81D27CB260025A026 /* NSDictionary_ANDYSafeValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413648A61D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework */; };
 		414DB4B71D27639B003DCF5B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 414DB4B61D27639B003DCF5B /* Info.plist */; };
 		53657BE2A6E60A3CA0A96585 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15F64DCE992EDD68128BEC3 /* Pods_Tests.framework */; };
 		B0B637141C6E4F2D00229B03 /* Bug179.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0B637121C6E4F2D00229B03 /* Bug179.xcdatamodeld */; };
@@ -181,6 +193,12 @@
 		1E8B52A6A3FEE75C9901179E /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		413648011D2787AC0025A026 /* Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sync.h; sourceTree = "<group>"; };
 		413648161D27983B0025A026 /* DATAStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DATAStack.framework; path = Carthage/Build/iOS/DATAStack.framework; sourceTree = "<group>"; };
+		413648971D27CA400025A026 /* DATAFilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DATAFilter.framework; path = Carthage/Build/iOS/DATAFilter.framework; sourceTree = "<group>"; };
+		413648981D27CA400025A026 /* DATAObjectIDs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DATAObjectIDs.framework; path = Carthage/Build/iOS/DATAObjectIDs.framework; sourceTree = "<group>"; };
+		413648991D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSEntityDescription_SYNCPrimaryKey.framework; path = Carthage/Build/iOS/NSEntityDescription_SYNCPrimaryKey.framework; sourceTree = "<group>"; };
+		4136489A1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSManagedObject_HYPPropertyMapper.framework; path = Carthage/Build/iOS/NSManagedObject_HYPPropertyMapper.framework; sourceTree = "<group>"; };
+		4136489B1D27CA400025A026 /* NSString_HYPNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSString_HYPNetworking.framework; path = Carthage/Build/iOS/NSString_HYPNetworking.framework; sourceTree = "<group>"; };
+		413648A61D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NSDictionary_ANDYSafeValue.framework; path = Carthage/Build/iOS/NSDictionary_ANDYSafeValue.framework; sourceTree = "<group>"; };
 		414DB4AE1D2762B7003DCF5B /* Sync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		414DB4B61D27639B003DCF5B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49548D9011B2AC39A3319B74 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,7 +214,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4136489F1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework in Frameworks */,
+				4136489D1D27CA400025A026 /* DATAObjectIDs.framework in Frameworks */,
 				53657BE2A6E60A3CA0A96585 /* Pods_Tests.framework in Frameworks */,
+				4136489C1D27CA400025A026 /* DATAFilter.framework in Frameworks */,
+				4136489E1D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework in Frameworks */,
+				413648A01D27CA400025A026 /* NSString_HYPNetworking.framework in Frameworks */,
+				413648A71D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework in Frameworks */,
 				413648171D27983B0025A026 /* DATAStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +229,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413648A51D27CA590025A026 /* NSString_HYPNetworking.framework in Frameworks */,
+				413648A31D27CA590025A026 /* NSEntityDescription_SYNCPrimaryKey.framework in Frameworks */,
+				413648A41D27CA590025A026 /* NSManagedObject_HYPPropertyMapper.framework in Frameworks */,
+				413648A81D27CB260025A026 /* NSDictionary_ANDYSafeValue.framework in Frameworks */,
+				413648A21D27CA590025A026 /* DATAObjectIDs.framework in Frameworks */,
+				413648A11D27CA590025A026 /* DATAFilter.framework in Frameworks */,
 				413648181D2798540025A026 /* DATAStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +415,12 @@
 		515545DD1958EE5C50CA007A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				413648A61D27CB1C0025A026 /* NSDictionary_ANDYSafeValue.framework */,
+				413648971D27CA400025A026 /* DATAFilter.framework */,
+				413648981D27CA400025A026 /* DATAObjectIDs.framework */,
+				413648991D27CA400025A026 /* NSEntityDescription_SYNCPrimaryKey.framework */,
+				4136489A1D27CA400025A026 /* NSManagedObject_HYPPropertyMapper.framework */,
+				4136489B1D27CA400025A026 /* NSString_HYPNetworking.framework */,
 				413648161D27983B0025A026 /* DATAStack.framework */,
 				9E482492041434DB374B1948 /* Pods.framework */,
 				E15F64DCE992EDD68128BEC3 /* Pods_Tests.framework */,
